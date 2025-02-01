@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jon10\\Downloads\\ConvinenceStore\\ConvinenceStore\\ConvinenceStore.csproj": {}
+    "D:\\Repositorios\\Repo-ConvinenceStoreAPI\\NET-ConvienceStoreAPI\\ConvinenceStore\\ConvinenceStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jon10\\Downloads\\ConvinenceStore\\ConvinenceStore\\ConvinenceStore.csproj": {
+    "D:\\Repositorios\\Repo-ConvinenceStoreAPI\\NET-ConvienceStoreAPI\\ConvinenceStore\\ConvinenceStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jon10\\Downloads\\ConvinenceStore\\ConvinenceStore\\ConvinenceStore.csproj",
+        "projectUniqueName": "D:\\Repositorios\\Repo-ConvinenceStoreAPI\\NET-ConvienceStoreAPI\\ConvinenceStore\\ConvinenceStore.csproj",
         "projectName": "ConvinenceStore",
-        "projectPath": "C:\\Users\\jon10\\Downloads\\ConvinenceStore\\ConvinenceStore\\ConvinenceStore.csproj",
+        "projectPath": "D:\\Repositorios\\Repo-ConvinenceStoreAPI\\NET-ConvienceStoreAPI\\ConvinenceStore\\ConvinenceStore.csproj",
         "packagesPath": "C:\\Users\\jon10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jon10\\Downloads\\ConvinenceStore\\ConvinenceStore\\obj\\",
+        "outputPath": "D:\\Repositorios\\Repo-ConvinenceStoreAPI\\NET-ConvienceStoreAPI\\ConvinenceStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -38,6 +38,7 @@ public class ProductController : ControllerBase
     public IActionResult registrarProducto([FromBody] ProductDTO product)
     {
         var result = _productProvider.createProduct(product);
+        // Console.WriteLine(product);
         return StatusCode(result.Result);
     }
 }

@@ -1,0 +1,98 @@
+# Ignorar archivos binarios y de compilación
+[Bb]in/
+[Oo]bj/
+
+# Ignorar archivos de usuario y de configuración local
+*.user
+*.suo
+*.userprefs
+*.lock.json
+
+# Ignorar archivos de NuGet
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+
+# Ignorar archivos de ReSharper
+_ReSharper.*
+*.ReSharper
+
+# Ignorar archivos de Visual Studio
+.vs/
+.vscode/
+*.swp
+*.sln.iml
+
+# Ignorar archivos de MSBuild
+*.msbuild
+*.msb
+
+# Ignorar archivos de Docker
+[Dd]ocker/
+docker-compose.*
+*.dockerignore
+
+# Ignorar archivos de Node.js (si es relevante)
+node_modules/
+npm-debug.log
+
+# Ignorar archivos de Azure Functions (si es relevante)
+func/
+
+# Ignorar archivos de logs y resultados de pruebas
+[Ll]ogs/
+[Tt]est[Rr]esults/
+*.log
+*.trx
+
+# Ignorar archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignorar archivos de secrets (si usas Secret Manager)
+secrets.json
+
+# Ignorar archivos de SQLite
+*.db
+*.sqlite
+
+# Ignorar archivos de caché
+.cache/
+*.cache
+
+# Ignorar archivos de IDE
+.idea/
+*.iml
+
+# Ignorar archivos de macOS
+.DS_Store
+
+# Ignorar archivos de Windows
+Thumbs.db
+
+# Ignorar archivos de Python (si es relevante)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de Terraform (si es relevante)
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignorar archivos de compresión
+*.zip
+*.tar.gz
+*.7z
+
+# Ignorar archivos de backup
+*.bak
+*.backup
+
+# Ignorar archivos de configuración personalizados
+*.custom
+*.local
+
+# Ignorar archivos de migraciones de Entity Framework (si es relevante)
+[Mm]igrations/
