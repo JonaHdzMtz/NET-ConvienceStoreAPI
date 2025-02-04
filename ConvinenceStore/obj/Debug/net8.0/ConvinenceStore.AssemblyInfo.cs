@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConvinenceStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3accb21f65382cce2d13f68b945aa6b254d2f708")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8273839a2bfc6e7cd6db88ecc77d9088fb3deb81")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConvinenceStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConvinenceStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
