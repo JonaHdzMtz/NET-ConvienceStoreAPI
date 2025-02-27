@@ -37,8 +37,15 @@ public class ProductController : ControllerBase
     [HttpPut("registrarProducto")]
     public IActionResult registrarProducto([FromBody] ProductDTO product)
     {
-        var result = _productProvider.createProduct(product);
-        // Console.WriteLine(product);
-        return StatusCode(result.Result);
+        if (ModelState.IsValid)
+        {
+            var result = _productProvider.createProduct(product);
+            // Console.WriteLine(product);
+            return StatusCode(result.Result);
+        }
+        return BadRequest();
+       
     }
+
+    
 }

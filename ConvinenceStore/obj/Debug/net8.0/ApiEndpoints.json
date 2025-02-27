@@ -8,16 +8,47 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "password",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "credential",
+        "Type": "ConvinenceStore.Models.DTO.Credential",
+        "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConvinenceStore.Controllers.ProductController",
+    "Method": "getProducts",
+    "RelativePath": "Product/obtenerProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConvinenceStore.Controllers.ProductController",
+    "Method": "registrarProducto",
+    "RelativePath": "Product/registrarProducto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "ConvinenceStore.Models.DTO.ProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConvinenceStore.Controllers.VentaController",
+    "Method": "getVentas",
+    "RelativePath": "Venta/obtenerVentas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -31,6 +31,7 @@ builder.Services.AddCors(opt =>
 //DEPENDENCIES INJECTION;
 builder.Services.AddScoped<ILogin,LoginProvider>();
 builder.Services.AddScoped<IProduct,ProductProvider>();
+builder.Services.AddScoped<ISale,SaleProvider>();
 
 
 var app = builder.Build();
